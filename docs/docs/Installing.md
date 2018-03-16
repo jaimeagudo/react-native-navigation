@@ -141,6 +141,7 @@
 		public List<ReactPackage> createAdditionalReactPackages() {
 			return Arrays.<ReactPackage>asList(
 				// eg. new VectorIconsPackage()
+				//MAKE SURE IT RETURNS THE SAME ARRAY AS `getPackages()`, OTHERWISE YOU'LL GET LINKING ERRORS
 			);
 		}
  	}
